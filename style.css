@@ -1,0 +1,578 @@
+* {
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+    /* outline: 1px dashed red; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/93546.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    overflow: visible;
+}
+
+
+/* * navigacija za jezik */
+
+div.up {
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    background-size: contain;
+    top: 0px;
+    background-image: url("slike/tribal\ header\ fiiinal.jpg");
+    overflow: visible;
+}
+
+nav.lang {
+    height: 50px;
+    width: 100%;
+}
+
+ul.lang {
+    list-style-type: none;
+    float: right;
+    display: block;
+    top: 10px;
+    margin: 10px 15px;
+    top: 0px;
+}
+
+li.lang {
+    color: indigo;
+    font-size: 20px;
+    background-color: rgb(240, 217, 243);
+    display: inline-block;
+    border: 2px solid rgb(83, 100, 129);
+    margin: 2px 0.5px;
+    font-weight: bold;
+    padding: 1px 2.5px;
+    text-align: center;
+}
+
+li.lang a {
+    text-decoration: none;
+}
+
+li.lang a:hover {
+    color: rgb(240, 217, 243);
+    background-color: indigo;
+    padding: 0px;
+}
+
+li.lang a:visited {
+    text-decoration: none;
+    decoration: none;
+    color: indigo;
+}
+
+
+/* * navigacija  */
+
+nav.hor {
+    position: sticky;
+    margin: 0px;
+    top: 0px;
+    height: 45px;
+    background-color: rgb(119, 131, 184);
+    z-index: 5;
+}
+
+ul.hor {
+    list-style-type: none;
+    position: absolute;
+    margin: 0px;
+    padding: 3px 0px;
+    float: right;
+    right: 15px;
+}
+
+li.hor {
+    color: indigo;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(240, 217, 243);
+    display: inline-flex;
+    border: 3px ridge rgb(83, 100, 129);
+    padding: 2px 6px;
+}
+
+li.hor a {
+    text-decoration: none;
+}
+
+li.hor a:hover {
+    text-decoration: underline;
+}
+
+.sakriven {
+    display: none;
+}
+
+.hor li:hover .sakriven {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+li.nounderline_ {
+    cursor: default;
+}
+
+li.nounderline a {
+    cursor: default;
+    color: indigo;
+}
+
+.hor li:hover .sakriven ul {
+    list-style-type: none;
+    background-color: rgb(105, 115, 168);
+    text-align: center;
+    margin: 20px 0px 0px;
+    padding: 10px 3px;
+    margin-left: -20px;
+}
+
+.hor li:hover .sakriven li {
+    color: rgb(83, 100, 129);
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(240, 217, 243);
+    display: block;
+    border: 3px ridge rgb(83, 100, 129);
+    padding: 2px 6px;
+    margin-bottom: 3px;
+}
+
+.hor li:hover .sakriven li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* * index  */
+
+header {
+    color: rgb(158, 88, 170);
+    text-align: center;
+    margin: 100px 1px 5px;
+}
+
+header h1 {
+    margin-bottom: 1px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    margin-top: 3px;
+    font-size: 40px;
+}
+
+div.work {
+    height: 600px;
+    width: 70%;
+    margin: 170px 14%;
+    text-align: center;
+    color: rgb(158, 88, 170);
+}
+
+div.work a {
+    decoration: none;
+}
+
+div.work a:visited {
+    text-decoration: none;
+    decoration: none;
+}
+
+div.work h2 {
+    margin-bottom: 100px;
+    margin-top: 10px;
+    /* text-decoration-color: rgb(26, 5, 32); */
+    text-decoration: underline solid rgb(139, 68, 151);
+    font-size: 40px;
+}
+
+div.work h3 {
+    font-size: 30px;
+    text-decoration: underline solid rgb(139, 68, 151);
+}
+
+div.work h4 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+div.work h5 {
+    color: rgb(82, 70, 85);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+div.work p {
+    color: rgb(139, 68, 151);
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10%;
+}
+
+div.web,
+div.phys {
+    display: inline-block;
+    height: 500px;
+    width: 49%;
+    border: 2px solid rgb(158, 88, 170);
+    border-radius: 15px;
+    padding: 5px 20px;
+    vertical-align: top;
+}
+
+div.web:hover,
+div.phys:hover {
+    transform: scale(1.2);
+    background-color: rgb(158, 191, 228);
+}
+
+.up1 {
+    width: 100%;
+    height: 58px;
+    position: relative;
+    padding-top: 10px;
+    margin-top: 30px;
+    top: 50px;
+    background-image: url("slike/tribal\ header\ fiiinal.jpg");
+    background-size: 500px;
+}
+
+div.phys img,
+div.web img {
+    border: 2px solid rgb(158, 88, 170);
+    border-radius: 25%;
+}
+
+article p {
+    width: 60%;
+    margin: 50px 19%;
+    padding: 25px 50px;
+    color: rgb(139, 68, 151);
+    font-size: 25px;
+    text-align: center;
+    border: 2px dashed darkmagenta;
+    border-radius: 2px 0px;
+}
+
+div.work a:visited {
+    text-decoration: none;
+    decoration: none;
+}
+
+#tribal {
+    background-image: url("https://thumbs.dreamstime.com/z/purple-pastel-tribal-triangles-repeat-pattern-purple-pastel-tribal-triangles-repeat-pattern-design-great-folk-modern-wallpaper-123342856.jpg");
+}
+
+
+/* * about */
+
+div#cv img {
+    opacity: 0.7;
+    margin: 13px 2px;
+    padding: 0px;
+    display: inline;
+}
+
+a.home {
+    position: absolute;
+    top: -1.5px;
+}
+
+a.home img {
+    opacity: 0.9;
+    padding: 2px;
+}
+
+ul.about {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+li.about {
+    text-align: center;
+    font-size: 28px;
+    padding: 5px 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(113, 54, 124);
+}
+
+li.about img {
+    padding: 0px;
+    position: relative;
+    right: 3px;
+    top: 6px;
+}
+
+aside {
+    margin: 40px 0px 0px;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("slike/wall2.jpg");
+    background-size: inherit;
+}
+
+div#cv button {
+    margin-top: 25px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+    text-align: center;
+}
+
+div#cv a {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#cv {
+    text-align: center;
+}
+
+div#cv img {
+    padding: 0px;
+    border: 1px solid purple;
+    margin: 0px;
+    text-align: center;
+}
+
+div#cv img:hover {
+    border: 2px solid purple;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin: -1px;
+}
+
+main {
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+main div {
+    position: relative;
+    right: 90px;
+}
+
+body.cv2 {
+    background-color: lavender;
+    background-image: none;
+}
+
+
+/* *mess */
+
+div.mess form {
+    width: 30%;
+    height: 550px;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+}
+
+div.mess label {
+    font-weight: bold;
+    font-size: 25px;
+    color: purple;
+}
+
+div.mess input {
+    display: block;
+    width: 80%;
+    margin: 5px 9% 9px;
+    height: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(97, 9, 109);
+}
+
+div.mess textarea {
+    width: 80%;
+    height: 300px;
+    margin: 5px 8% 8px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(97, 9, 109);
+    position: relative;
+    right: 5px;
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: rgb(97, 9, 109);
+}
+
+textarea::placeholder {
+    font-size: 20px;
+    color: rgb(97, 9, 109);
+}
+
+div.mess button {
+    height: 40px;
+    width: 40%;
+    border: 2px solid rgb(97, 9, 109);
+    color: rgb(97, 9, 109);
+    background-color: rgb(229, 212, 231);
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.01s;
+}
+
+div.mess button:hover {
+    cursor: pointer;
+    transform: scale(1.008);
+    -webkit-box-shadow: 3px 2px 3px 0px rgba(60, 4, 68, 0.876);
+    -moz-box-shadow: 3px 2px 3px 0px rgba(60, 4, 68, 0.876);
+    box-shadow: 3px 2px 3px 0px rgba(60, 4, 68, 0.876);
+}
+
+body#cv2 {
+    background-image: unset;
+}
+
+div#cv1 {
+    background-color: rgb(185, 216, 226);
+}
+
+div#cv1 img {
+    margin: 0px 19%;
+    position: relative;
+    bottom: 80px;
+}
+
+
+/* *  Work */
+
+article.web1 {
+    height: 550px;
+    width: 40%;
+    margin: 5px 100px;
+    display: inline-block;
+    background-color: rgb(112, 61, 148);
+    vertical-align: top;
+    padding: 20px 0px;
+}
+
+div.web1 {
+    height: 550px;
+    width: 40%;
+    margin: 5px;
+    display: inline-block;
+    background-color: lavender;
+    vertical-align: top;
+    float: right;
+    margin-right: 30px;
+}
+
+article.web1 p.web1 {
+    width: 90%;
+    margin: 10px 10px;
+    padding: 35px 9% 5px;
+    color: rgb(147, 174, 200);
+    font-size: 25px;
+    text-align: center;
+    border: 2px dashed rgb(58, 31, 58);
+    border-radius: 2px 0px;
+}
+
+article.web1 img {
+    margin: 0px 40%;
+    transition: all 0.1s;
+}
+
+div.web1 {
+    position: relative;
+}
+
+div.web1 img.web11 {
+    padding-top: 0px;
+}
+
+article.web1 img.web1:hover {
+    transform: scale(1.15);
+}
+
+div.web1 img.web12 {
+    padding-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+div.work a:visited {
+    text-decoration: none;
+    decoration: none;
+}
+
+article.web1 h3 {
+    color: rgb(147, 174, 200);
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 2px;
+    margin: 15px;
+}
+
+article.web1 img {
+    margin: 8px 40%;
+    transition: all 0.1s;
+}
+
+div.ph {
+    height: 500px;
+    width: 49%;
+    display: inline-block;
+    background-color: lavender;
+    vertical-align: top;
+}
+
+img.ph11 {
+    margin: 30px 0px 50px;
+}
+
+img.ph12 {
+    margin: 5px 0px 5px;
+    margin-top: 80px;
+}
+
+footer {
+    background-color: rgb(119, 131, 184);
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+.mail p {
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(158, 88, 170);
+}
+
+.map iframe {
+    width: 100%;
+    opacity: 0.75;
+}

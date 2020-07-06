@@ -1,0 +1,244 @@
+@media only screen and (max-width: 1700px) {
+    article.web1 p.web1 {
+        margin: 5px 15px;
+        font-size: 22px;
+        width: 100%;
+    }
+    article.web1 h3 {
+        font-size: 50px;
+        margin: 3px;
+    }
+}
+
+@media only screen and (max-width: 1640px) {
+    article.web1 p.web1 {
+        padding: 15px 5px;
+        font-size: 10px;
+        width: 100%;
+        margin: 5px 5px;
+    }
+    img.web1 {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 1540px) {
+    article.web1 {
+        margin: 5px 5px;
+        width: 48%;
+    }
+    div.web1 {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 1454px) {
+    body {
+        background-size: cover;
+    }
+    article.web1 p.web1 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1430px) {
+    article.web1 p.web1 {
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    article.web1 h3 {
+        margin: 15px;
+    }
+    article.web1 p.web1 {
+        padding: 20px 5px 15px;
+    }
+}
+
+@media only screen and (max-width: 1192px) {
+    body {
+        background-size: auto;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    article.web1 h3 {
+        margin: 15px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    div.web1 {
+        display: none;
+        text-align: center;
+        width: 70%;
+        margin: 15px 14%;
+    }
+    article.web1 {
+        display: block;
+        text-align: center;
+        width: 70%;
+        margin: 15px 14%;
+        left: 20px;
+        position: relative;
+    }
+    article.web1 p.web1 {
+        padding: 5px 10%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    header {
+        margin: 70px 20px 0px;
+    }
+    article.web1 {
+        margin: 15px 10%;
+        width: 80%;
+    }
+    div.web1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    header {
+        margin: 60px 15px 0px;
+    }
+    article.web1 {
+        margin: 15px 5%;
+        width: 85%;
+    }
+    h1.h11 {
+        margin: 15px 20px 5px;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    ul.hor {
+        text-align: center;
+        right: auto;
+    }
+    article.web1 h3 {
+        margin: 3px 15px;
+    }
+}
+
+@media only screen and (max-width: 633px) {
+    article.web1 h3 {
+        padding: 0;
+    }
+    article.web1 p.web1 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    ul.hor {
+        text-align: center;
+        left: 50px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    article.web1 p.web1 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    div.mess form {
+        width: 85%;
+    }
+    ul.hor {
+        text-align: center;
+        position: relative;
+        bottom: 53px;
+        width: 100%;
+        margin-right: 30px;
+        /* display: block; */
+    }
+    a.home {
+        /* display: block; */
+        position: relative;
+        bottom: 50px;
+    }
+    article.web1 p.web1 {
+        font-size: 22px;
+        padding-bottom: 3px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    article.web1 p.web1 {
+        padding: 5px 20px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    ul.hor {
+        position: relative;
+        bottom: 53px;
+    }
+    ul.hor li.hor {
+        padding: 1px 2px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .hor li:hover .sakriven ul {
+        margin-top: 10px;
+    }
+    .hor li:hover .sakriven li {
+        font-size: 20px;
+    }
+    nav.hor {
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    article.web1 p.web1 {
+        padding: 5px 15px;
+        font-size: 21px;
+    }
+    img.web1 {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    article.web1 {
+        margin: 15px 0px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    a.home {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    nav.hor {
+        height: 100px;
+        padding: 2px 3px;
+        text-align: center;
+        padding-right: 50px;
+    }
+    li.hor {
+        display: block;
+    }
+    body {
+        background-size: auto;
+        background-repeat: repeat-y;
+    }
+    a.home {
+        text-align: left;
+        right: 70px;
+    }
+}

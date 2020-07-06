@@ -1,0 +1,131 @@
+/* ! */
+
+@media only screen and (max-width: 1454px) {
+    body {
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 1192px) {
+    body {
+        background-size: auto;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    header {
+        margin: 70px 20px 0px;
+    }
+    @media only screen and (max-width: 700px) {
+        header {
+            margin: 60px 15px 0px;
+        }
+    }
+    @media only screen and (max-width: 650px) {
+        ul.hor {
+            text-align: center;
+            float: none;
+            right: auto;
+        }
+    }
+    @media only screen and (max-width: 450px) {
+        ul.hor {
+            position: relative;
+            bottom: 53px;
+        }
+        ul.hor li.hor {
+            padding: 1px 2px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .hor li:hover .sakriven ul {
+            margin-top: 10px;
+        }
+        .hor li:hover .sakriven li {
+            font-size: 20px;
+        }
+        nav.hor {
+            height: 40px;
+        }
+        main {
+            margin-left: 20px;
+        }
+    }
+    @media only screen and (max-width: 340px) {
+        a.home {
+            text-align: left;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        nav.hor {
+            height: 100px;
+            padding: 2px 3px;
+            text-align: center;
+            padding-right: 50px;
+        }
+        li.hor {
+            display: block;
+        }
+        body {
+            background-size: auto;
+            background-repeat: repeat-y;
+        }
+        a.home {
+            text-align: left;
+            right: 70px;
+        }
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    ul.hor {
+        text-align: center;
+        position: relative;
+        bottom: 55px;
+        margin-right: 60px;
+        padding-right: 10px;
+        /* display: block; */
+    }
+    a.home {
+        /* display: block; */
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    ul.hor {
+        position: relative;
+        right: 0px;
+        bottom: 45px;
+        float: left;
+        width: 80%;
+        margin: 0px 10px 0px 5px;
+        padding: 2px;
+    }
+    li.hor {
+        padding: 1px 2px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .hor li:hover .sakriven ul {
+        margin-top: 10px;
+    }
+    .hor li:hover .sakriven li {
+        font-size: 20px;
+    }
+    a.home img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 351px) {
+    ul.hor {
+        width: 88%;
+        padding-left: 0px;
+        margin-right: 55px;
+        height: 35px;
+        padding-right: 5px;
+    }
+}
